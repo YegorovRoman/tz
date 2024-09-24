@@ -1,0 +1,163 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+    height: 58px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #FFE7C6;
+    &__container{
+        max-height: 58px;
+        max-width: 1140px;
+        width: 100%;
+        display: flex;
+        margin-left: 200px;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__windows{
+        display: flex;
+        background-color: #FFDEB0;
+        border-radius: 60px;
+        padding: 7px 15px;
+        gap: 30px;
+        align-items: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    &__logo{
+        margin-left: 95px;
+        max-height: 58px;
+    }
+}
+.catalog{
+    &__container{
+        margin-left: 200px;
+        margin-right: 199px;
+        margin-top: 154px;
+        margin-bottom: 195px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 22px;
+        row-gap: 60px;
+    }
+    &__card{
+        &_text{
+            font-size: 16px;
+            font-weight: 200;
+        }
+    }
+    &__avatar_text{
+        display: flex;
+        gap: 15px;
+        align-items: center;
+        margin-top: 7px;
+    }
+}
+.footer{
+    background-color: #F6F6F6;
+    &__container{
+        padding-top: 12px;
+        padding-left: 144px;
+        padding-right: 144px;
+        padding-bottom: 20px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 34px;
+    font-size: 16px;
+    a{
+        text-decoration: none;
+        color: #000;
+    }
+    }
+    &__icon{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-top: 47px;
+    }
+    &__telega{
+    background-color: #fff;
+    padding: 7px 7px;
+    border-radius: 10px;
+    }
+    &__youtube{
+        background-color: #fff;
+        border-radius: 10px;
+        padding: 7px 7px;
+    }
+    &__vk{
+        background-color: #fff;
+        border-radius: 10px;
+        padding: 14px 8px 10px 8px;
+    }
+    &__googleplay{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 14px 7px 12px 14px;
+    max-width: 123px;
+    margin-top: 15px;
+    }
+    &__Get_it_on{
+        font-size: 10px;
+
+    }
+    &__Google_Play{
+        font-size: 12px;
+        font-weight: 600;
+    }
+    &__google_text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    a{
+        text-decoration: none;
+        color: #000;
+    }
+    }
+    &__text_2{
+        margin-top: 30px;
+        font-size: 16px;
+    }
+    &__phone{
+        background-color: #fff;
+        border-radius: 10px;
+        padding: 7px 10px;
+    }
+    &__reliability{
+        margin-top: 99px;
+        font-size: 12px;
+        font-weight: 200;
+    }
+
+    &__help{
+        text-align: right;
+    }
+    &__number_phone{
+        font-size: 32px;
+        margin-top: 23px;
+    }
+    &__time{
+        margin-top: 25px;
+    }
+    &__description{
+        font-size: 14px;
+        font-weight: 200;
+        margin-top: 101px;
+    }
+    &__texts{
+        margin-left: 40px;
+    }
+}

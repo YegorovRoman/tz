@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #FFE7C6;
+}
+
+.reviews__header {
+  max-width: 120px;
+  max-height: 158px;
+}
+.reviews__container {
+  margin-top: 30px;
+  margin-left: 120px;
+  margin-right: 113px;
+  margin-bottom: 80px;
+}
+.reviews__full_windows {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  text-align: center;
+  -moz-column-gap: 25px;
+       column-gap: 25px;
+  row-gap: 25px;
+}
+.reviews__window {
+  font-size: 20px;
+  background-color: #FFE7C6;
+  padding: 14px 27px;
+  max-width: 324px;
+  border-radius: 5px;
+  text-align: center;
+  margin-bottom: 16px;
+  border: 1px solid;
+}
+.reviews__windows {
+  border: 1px solid;
+  border-radius: 2px;
+}
+.reviews__windows_avatar {
+  margin-top: 29px;
+}
+.reviews__windows_text_1 {
+  margin-bottom: 80px;
+}
+.reviews__windows_text_6 {
+  margin-bottom: 29px;
+}

@@ -1,0 +1,336 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    height: 58px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #FFE7C6;
+    &__container{
+        max-height: 58px;
+        max-width: 1140px;
+        width: 100%;
+        display: flex;
+        margin-left: 200px;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__windows{
+        display: flex;
+        background-color: #FFDEB0;
+        border-radius: 60px;
+        padding: 7px 15px;
+        gap: 30px;
+        align-items: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    &__logo{
+        margin-left: 95px;
+        max-height: 58px;
+    }
+}
+.catalog{
+    &__container{
+        margin-left: 200px;
+        margin-right: 187px;
+        margin-top: 154px;
+        margin-bottom: 22px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 35px;
+        row-gap: 35px;
+    }
+    &__card{
+        &_discount{
+            background-color: #FFFECE;
+            border-radius: 5px;
+            padding: 2px 3px;
+            max-width: 95px;
+            margin-top: 5px;
+        }
+        &_button{
+            &_green{
+            background-color: white;
+            border: 1px solid #66FF3C;
+            border-radius: 5px;
+            padding: 3px 31px;
+            font-size: 15px;
+            font-weight: 400;
+            max-width: 100px;
+            margin-top: 35px;
+            margin-top: 7px;
+            a{
+                text-decoration: none;
+                color: #66FF3C;
+            }
+            }
+            background-color: white;
+            border: 1px solid #000;
+            border-radius: 5px;
+            padding: 3px 31px;
+            font-size: 15px;
+            font-weight: 400;
+            max-width: 100px;
+            margin-top: 35px;
+            transition: 0.5s all;
+            a{
+                text-decoration: none;
+                color: #000;
+                transition: 0.5s all;
+                :hover{
+                    color: #fff;
+                    background-color: #000;
+                    border: 1px solid #000;
+                    border-radius: 5px;
+                    padding: 3px 31px;
+                }
+            }
+        }
+        &_text{
+            font-size: 16px;
+            font-weight: 200;
+            margin-top: 10px;
+        }
+        &_trousers{
+            :hover{
+                transition: 1s;
+                transform: scale(1.1);
+                cursor: pointer;
+            }
+        border-radius: 2px;
+            background: linear-gradient(
+            0deg,
+        #FFF4E4 37%,
+        #BFC1BB 100%
+            )
+        }
+        &_blouse{
+            :hover{
+                transition: 1s;
+                transform: scale(1.1);
+                cursor: pointer;
+            }
+        border-radius: 2px;
+            background: linear-gradient(
+            0deg,
+        #FFF6F2 0%,
+        #ADAE63 100%
+            )
+        }
+        &_blouse_orange{
+            :hover{
+                transition: 1s;
+                transform: scale(1.1);
+                cursor: pointer;
+            }
+        border-radius: 2px;
+            background: linear-gradient(
+            0deg,
+        #FFEEEE 50%,
+        #E88D3E 100%
+            )
+        }
+        &_shirt{
+            :hover{
+                transition: 1s;
+                transform: scale(1.1);
+                cursor: pointer;
+            }
+        border-radius: 2px;
+            background: linear-gradient(
+            0deg,
+        #FFCCEB 0%,
+        #FFF7E7 31%,
+        #FFF6F2 100%
+            )
+        }
+        &_panama{
+            :hover{
+                transition: 1s;
+                transform: scale(1.1);
+                cursor: pointer;
+            }
+        border-radius: 2px;
+            background: linear-gradient(
+            0deg,
+        #BCFFBE 60%,
+        #F2F2F2 80%
+            )
+        }
+        &_cap{
+            :hover{
+                transition: 1s;
+                transform: scale(1.1);
+                cursor: pointer;
+            }
+        border-radius: 2px;    
+            background: linear-gradient(
+            0deg,
+        #F9F9F9 37%,
+        #FFB999 100%
+            )
+        }
+        &_blouse_blue{
+            :hover{
+                transition: 1s;
+                transform: scale(1.1);
+                cursor: pointer;
+            }
+        border-radius: 2px;
+            background: linear-gradient(
+            0deg,
+        #AAC3FF 20%,
+        #FFF6F2 92%
+            )
+        }
+        &_sneakers{
+            :hover{
+                transition: 1s;
+                transform: scale(1.1);
+                cursor: pointer;
+            }
+        border-radius: 2px;
+            background: linear-gradient(
+            0deg,
+        #D29EBD 10%,
+        #E1FFF9 40%,
+        #FFF6F2 100%
+            )
+        }
+        &_blouse_yellow{
+            :hover{
+                transition: 1s;
+                transform: scale(1.1);
+                cursor: pointer;
+            }
+        border-radius: 2px;
+            background: linear-gradient(
+            0deg,
+        #FFF6B5 100%,
+        #FFE7B6 40%,
+        #FFF6F2 100%
+            )
+        }
+    }
+}
+.footer{
+    background-color: #F6F6F6;
+    &__container{
+        padding-top: 12px;
+        padding-left: 144px;
+        padding-right: 144px;
+        padding-bottom: 20px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 34px;
+    font-size: 16px;
+    a{
+        text-decoration: none;
+        color: #000;
+    }
+    }
+    &__icon{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-top: 47px;
+    }
+    &__telega{
+    background-color: #fff;
+    padding: 7px 7px;
+    border-radius: 10px;
+    }
+    &__youtube{
+        background-color: #fff;
+        border-radius: 10px;
+        padding: 7px 7px;
+    }
+    &__vk{
+        background-color: #fff;
+        border-radius: 10px;
+        padding: 14px 8px 10px 8px;
+    }
+    &__googleplay{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 14px 7px 12px 14px;
+    max-width: 123px;
+    margin-top: 15px;
+    }
+    &__Get_it_on{
+        font-size: 10px;
+
+    }
+    &__Google_Play{
+        font-size: 12px;
+        font-weight: 600;
+    }
+    &__google_text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    a{
+        text-decoration: none;
+        color: #000;
+    }
+    }
+    &__text_2{
+        margin-top: 30px;
+        font-size: 16px;
+    }
+    &__phone{
+        background-color: #fff;
+        border-radius: 10px;
+        padding: 7px 10px;
+    }
+    &__reliability{
+        margin-top: 99px;
+        font-size: 12px;
+        font-weight: 200;
+    }
+
+    &__help{
+        text-align: right;
+    }
+    &__number_phone{
+        font-size: 32px;
+        margin-top: 23px;
+    }
+    &__time{
+        margin-top: 25px;
+    }
+    &__description{
+        font-size: 14px;
+        font-weight: 200;
+        margin-top: 101px;
+    }
+    &__texts{
+        margin-left: 40px;
+    }
+}
+.ttre{
+    & p{
+        color: #000;
+        transition: 0.5s all;
+        :hover{
+            color: #fff;
+            background-color: #000;
+            border: 1px solid #000;
+            border-radius: 5px;
+            padding: 3px 31px;
+        }
+    }
+}

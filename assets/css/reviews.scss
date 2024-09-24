@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #FFE7C6;
+}
+.reviews{
+    &__header{
+        max-width: 120px;
+        max-height: 158px;
+    }
+    &__container{
+        margin-top: 30px;
+        margin-left: 120px;
+        margin-right: 113px;
+        margin-bottom: 80px;
+    }
+    &__full_windows{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        text-align: center;
+        column-gap: 25px;
+        row-gap: 25px;
+    }
+    &__window{
+        font-size: 20px;
+        background-color: #FFE7C6;
+        padding: 14px 27px;
+        max-width: 324px;
+        border-radius: 5px;
+        text-align: center;
+        margin-bottom: 16px;
+        border: 1px solid;
+    }
+    &__windows{
+        border: 1px solid;
+        border-radius: 2px;
+        &_avatar{
+            margin-top: 29px;
+        }
+        &_text_1{
+            margin-bottom: 80px;
+        }
+        &_text_6{
+            margin-bottom: 29px;
+        }
+    }
+}

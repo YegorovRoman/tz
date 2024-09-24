@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header {
+    background-color: #fff;
+  }
+  
+  .main__header_container {
+    margin: 16px 37px 16px 42px;
+    display: flex;
+    justify-content: space-between;
+  }
+  @media (max-width: 721px) {
+    .main__header_container {
+      margin: 0;
+    }
+  }
+  
+  .main__logo {
+    max-width: 120px;
+  }
+  .main__texts {
+    display: flex;
+    width: 810px;
+    max-height: 40px;
+    margin-top: 72px;
+    align-items: center;
+  }
+  
+  .main__text {
+    display: flex;
+    gap: 37px;
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .main__text a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .main__button {
+    margin-left: 37px;
+    display: flex;
+    gap: 37px;
+    font-size: 20px;
+    font-weight: 400;
+    max-height: 45px;
+  }
+  .main__button a {
+    text-decoration: none;
+  }
+  
+  .main__button_sign_in {
+    background-color: #D9D9D9;
+    border-radius: 10px;
+    padding: 8px 12px;
+  }
+  .main__button_sign_in a {
+    color: #000;
+  }
+  
+  .main__button_sign_up {
+    background-color: #000;
+    border-radius: 10px;
+    padding: 6px 7px;
+  }
+  .main__button_sign_up a {
+    color: #fff;
+  }
+  
+  .main__pic {
+    background: url("../img/dress.svg") center center/cover;
+    height: 578px;
+  }
+  @media (max-width: 721px) {
+    .main__pic {
+      background: url("../img/dress2.svg") center center/cover;
+      width: 104vh;
+      height: 104vh;
+    }
+  }
+  
+  .main__name {
+    padding-top: 136px;
+  }
+  
+  .main__name_title {
+    color: #A5A5A5;
+    display: flex;
+    justify-content: center;
+    font-size: 64px;
+  }
+  
+  .main__name_subtitle {
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    margin-top: -20px;
+  }
+  
+  .main__footer_container {
+    display: flex;
+    margin: 5px 181px;
+    justify-content: space-between;
+  }
+  
+  .main__footer_title {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .main__footer_text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  
+  .main__footer_support_text a {
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  
+  @media (max-width: 721px) {
+    .main__text_mobile {
+      display: flex;
+      flex-direction: column;
+    }
+  }    
